@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Login = ({handleLoginFormChange, handleLoginFormSubmit, email, password}) => {
+const Signup = ({handleLoginFormChange, handleLoginFormSubmit, email, password}) => {
 
     
 
     return (
-        <div className="Login"><br/>
-            <form id="loginForm" onSubmit={handleLoginFormSubmit}>
+        <div className="Signup"><br/>
+            <form id="signupForm" onSubmit={handleLoginFormSubmit}>
                 <input 
                        type="text"
                        name="email"
@@ -23,7 +23,7 @@ const Login = ({handleLoginFormChange, handleLoginFormSubmit, email, password}) 
                        /><br/><br/>
                 <input 
                        type="submit"
-                       value="Login"
+                       value="Signup"
                        />
             </form>
         </div>
@@ -32,4 +32,4 @@ const Login = ({handleLoginFormChange, handleLoginFormSubmit, email, password}) 
 }
 
 
-export default Login
+export default Signup
